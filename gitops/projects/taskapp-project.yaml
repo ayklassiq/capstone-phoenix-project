@@ -1,0 +1,23 @@
+apiVersion: argoproj.io/v1alpha1
+kind: AppProject
+metadata:
+  name: taskapp
+  namespace: argocd
+
+spec:
+  description: TaskApp GitOps Project
+
+  sourceRepos:
+    - "https://github.com/ayklassiq/capstone-phoenix-project.git"
+
+  destinations:
+    - namespace: taskapp
+      server: https://kubernetes.default.svc
+
+  clusterResourceWhitelist:
+    - group: "*"
+      kind: "*"
+
+  namespaceResourceWhitelist:
+    - group: "*"
+      kind: "*"
