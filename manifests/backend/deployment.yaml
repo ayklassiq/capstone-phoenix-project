@@ -38,14 +38,14 @@ spec:
                   key: POSTGRES_PASSWORD
 
             - name: DB_HOST
-              value: postgres
+              value: postgres.taskapp.svc.cluster.local
 
             - name: DB_PORT
               value: "5432"
-            - name: DATABASE_URL
-              value: postgresql://taskuser:Aremu123%23%23@postgres.taskapp.svc.cluster.local:5432/taskapp
             # - name: DATABASE_URL
-            #   valueFrom:
-            #     secretKeyRef:
-            #       name: taskapp-secret
-            #       key: DATABASE_URL
+            #   value: postgresql://taskuser:Aremu123%23%23@postgres.taskapp.svc.cluster.local:5432/taskapp
+            - name: DATABASE_URL
+              valueFrom:
+                secretKeyRef:
+                  name: taskapp-secret
+                  key: DATABASE_URL
