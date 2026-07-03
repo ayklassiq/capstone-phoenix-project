@@ -8,5 +8,5 @@ instance_type = "t3.small"
 
 key_name = "phoenix-k3s-key"
 
-my_ip = "102.88.108.85/32"
+my_ip = "102.88.108.44/32"
 
