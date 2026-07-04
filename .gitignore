@@ -21,3 +21,5 @@ kubeconfig
 # Environment
 .env
 .env.*
+
+manifests/config/secret.yamlinfra/terraform/terraform.tfvars
