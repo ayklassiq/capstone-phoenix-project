@@ -194,6 +194,8 @@ SUBMISSION LINK:
 https://docs.google.com/forms/d/e/1FAIpQLSdp-5Zfvt431gY8m2L_MOZ7NQ-8zN2L3jvkgL7P3yP7-pd94Q/viewform?usp=header
 
 ## Live Demo
+<img width="1440" height="900" alt="Screenshot 2026-07-03 at 17 42 21" src="https://github.com/user-attachments/assets/ca7e8400-3b04-457e-a0d3-eac57174044c" />
+<img width="1440" height="900" alt="Screenshot 2026-07-06 at 09 04 08" src="https://github.com/user-attachments/assets/dd6c66b1-017d-4ab7-b92b-3e5978c16671" />
 
 **App URL:** http://taskapp.52-53-3-233.nip.io:30092/
 
